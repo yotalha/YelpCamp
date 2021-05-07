@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const methodOverride = require('method-override');
 const Campground = require('./models/campground');
 
+//putting project on git 
+
 mongoose.connect('mongodb://localhost:27017/yelp-camp', {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true});
 
 const db = mongoose.connection;

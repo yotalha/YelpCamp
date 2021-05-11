@@ -1,7 +1,9 @@
 <% layout('layouts/boilerplate')%>
-<h2>Show Campgrounds</h2>
-<h3><%= camp.title %></h3>
-<h4><%= camp.location %></h3>
+<h1><%= camp.title %></h3>
+<h2><%= camp.location %></h3>
+<img src="<%= camp.image %>" alt="">
+<p><%= camp.description %></p>
+
 <p>
   <a href="/campgrounds/<%= camp._id %>/edit">Edit </a>
 </p>
